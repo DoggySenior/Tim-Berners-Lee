@@ -1,0 +1,75 @@
+body{
+    margin:0;
+    padding-top:550px;
+    text-align:center;
+    background:linear-gradient(#7f10e0,#e61515,#0e0eeb,#0ed1eb);
+    font-family: 'Castoro Titling', cursive;
+}
+.profile{
+    border-radius:50%;
+}
+#welcome{
+    position:absolute;
+    bottom:0;
+    display:table;
+    width:100%;
+    height:100%;
+}
+.menu{
+    list-style:none;
+    position:absolute;
+    top:10px;
+    right:30px;
+    z-index:10;
+    cursor:pointer;
+    color:#0000;
+}
+.links{
+    float:left;
+    padding-top:5px;
+    padding-left:9px;
+    padding-right:9px;
+    padding-bottom:5px;
+    font-family: 'Castoro Titling', cursive;
+    font-size:20px;
+}
+#name{
+    font-size:50px;
+    font-family: 'Castoro Titling', cursive;
+}
+#bio{
+    font-family: 'Castoro Titling', cursive;
+    padding:50px;
+}
+a{
+text-decoration:none;    
+}
+.menu{
+    position:fixed;
+    background:linear-gradient(#d013d6,#c8a5c9,#bda5c9,#8f1dcc,#28063b,#3b0637);
+width: 100%;
+margin-top:0px;
+top:0px;
+z-index:10;
+}
+.links{
+    display:inline;
+    padding-left:33px;
+    padding-right:25px;
+    font-family: fantasy;
+    font-size:20px;
+}
+.links:hover{
+    font-size:25px;
+    text-decoration:underline;
+}
+#writings a{
+    text-decoration:underline !important;
+    color:yellow !important;
+}
+#contact{
+    background:red;
+}
+.contact_1 h3{
+    display:inline;
+}
